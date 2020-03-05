@@ -1,0 +1,15 @@
+{
+  "name": "google-maps-services-js-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/google-maps-services-node": "github:googlemaps/google-maps-services-js#74b4af1582e656f1cdf77d68c4ef21dad6bf0db8"
+  }
+}

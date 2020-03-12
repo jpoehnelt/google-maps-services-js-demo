@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@googlemaps/google-maps-services-node": "github:googlemaps/google-maps-services-js#74b4af1582e656f1cdf77d68c4ef21dad6bf0db8"
+    "@googlemaps/google-maps-services-js": "^2.3.1"
   }
 }

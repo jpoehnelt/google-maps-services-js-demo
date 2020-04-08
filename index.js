@@ -1,20 +1,5 @@
 const Client = require("@googlemaps/google-maps-services-js").Client;
-const HttpsAgent = require("agentkeepalive").HttpsAgent
-
-const version = 'test'
-const defaultHttpsAgent = new HttpsAgent({ keepAlive: true });
-const defaultTimeout = 10000;
-const userAgent = `google-maps-services-node-${version}`;
-
-const defaultConfig = {
-  timeout: defaultTimeout,
-  httpsAgent: defaultHttpsAgent,
-  headers: { "User-Agent": userAgent }
-};
-
-const client = new Client({
-  config: defaultConfig
-})
+const client = new Client({});
 
 client
   .elevation({
